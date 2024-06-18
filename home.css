@@ -1,0 +1,436 @@
+.menu{
+    height: 50px;
+}
+
+.navbar-inverse {
+    background-color: #da1818 !important;
+    height : 20px;
+} 
+
+.navbar{
+    margin-bottom : 0px;
+}
+
+.text-color{
+    color : white !important; 
+}
+
+/*Search section*/
+.search{
+    height : 450px;
+    background-image: url('https://i.ibb.co/C7PnQpp/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    height : 150px;
+    width : 150px;
+    background-color: white;
+    border-radius :50%;
+    margin-left: 45%;
+    margin-top: 3.5%;
+    position: absolute;
+    font-size: 80px;
+    color: #e00808e5;
+}
+
+.logo > span{
+    margin-left: 30%;
+    margin-top: 18%;
+    position : absolute;
+    font-weight: bolder;
+}
+
+.heading{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 17.5%;
+    margin-left: 16%;
+    position: absolute;
+    font-family: Roboto, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 #000,
+                2px 1px 0 #000,
+                4px -3px 0 #000,
+                2px 1px 0 #000; 
+    font-weight: bolder;
+}
+
+.dropdown{
+    width : 57%;
+    height : 47px;
+    margin-top: 24%;
+    margin-left: 21%;
+    position : absolute !important;
+    border-color : black;
+}
+
+select{
+    height : 47px;
+    width : 35%;
+    text-align: center;
+}
+
+.SearchRestaurant{
+    margin-left: 10px;
+    width : 63%;
+}
+
+/*Quick Search Section*/
+.QuickSearch{
+    margin-left: 11%;
+    margin-top: 1%;
+}
+
+.QuickHeading{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color :rgb(13, 13, 126);
+    font-weight: bolder;
+}
+
+.QuickSubHeading{
+    font-size: 15px;
+    color:rgb(134, 134, 204);
+    font-weight: bolder;
+    line-height: 40px;
+    font-family:'Arial', Times, serif;
+}
+
+.tiles{
+    height : 150px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2.2%;
+    background-color: rgb(233, 225, 225);
+    box-shadow: -10px 15px 10px grey;
+}
+
+.tiles:hover{
+    transform : scale(1.1);
+}
+
+.image{
+    width : 40% !important;
+    height : 100%;
+    float : left;
+    padding : -0.5%;
+}
+
+.imageDetails{
+    width : 40%;
+    height : 80%;
+    float : left;
+    margin-left: 15.5% !important;
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/*Social Media Section*/
+.social{
+    width : 100% !important;
+    height : 80px;  
+    text-align: center;
+    background-color: rgb(219, 179, 127);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info{
+    background-color: rgb(207, 206, 205);
+    height : 300px;
+}
+
+.information1{
+    background-color: rgb(207, 206, 205);
+    height : 150px;
+    width: 400px !important;
+    float : left;
+    margin-top: 4%;
+    margin-left: 2.2%;
+    margin-bottom: 1%;
+    box-shadow: 3px 0px 0px rgb(54, 54, 54);
+}
+
+.information2{
+    background-color: rgb(207, 206, 205);
+    height : 150px;
+    width: 400px !important;
+    float : left;
+    margin-top: 4%;
+    margin-left: 2.2%;
+    margin-bottom: 1%;
+}
+
+.portfoliolink{
+    padding : 1px 1px 1px 1px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#developer{
+    color : rgb(22, 22, 22);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*footer*/
+footer{
+    height : 50px;
+    background-color: #e00808e5;
+}
+
+/*margin queries*/
+
+@media screen and (max-width:1300px){
+    .info{
+        height : 450px;        
+    }
+    .information2{
+        box-shadow: 3px 0px 0px rgb(54, 54, 54);
+    }
+}
+
+@media screen and (max-width:1200px){
+    .search{
+        height : 400px;
+    }
+    .dropdown{
+        margin-left:19%;
+        width : 59%;
+        height : 375px;
+    }
+    select{
+        height : 32px;
+        width : 34.5%;
+    }
+    .info{
+        height : 450px;
+        
+    }
+}
+
+@media screen and (max-width:1100px){
+    .heading{
+        margin-left: 14%;
+        font-size: 37px;
+        margin-top: 22%;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 7%;
+        font-size: 60px;
+        width: 120px;
+        height:120px;
+    }
+    .search{
+        height : 370px;        
+        background-size: 100% 370px;
+    }
+    .dropdown{
+        height : 32px;
+        margin-top: 28%;
+        margin-left : 17%;
+    }
+    select{
+        height : 32px;
+        width : 34.5%;
+    }
+    .info{
+        height : 450px;
+        
+    }
+}
+
+@media screen and (max-width:1000px){
+    .heading{
+        margin-left: 13%;
+        margin-top: 23%;
+        font-size: 35px;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 7%;
+        font-size: 60px;
+        width: 120px;
+        height:120px;
+    }
+    .search{
+        height : 350px;        
+        background-size: 100% 350px;
+    }
+    .dropdown{
+        height : 30px;
+        margin-top: 30%;
+        margin-left : 18%;
+    }
+    select{
+        height : 30px;
+        width : 34%;
+    }
+    .info{
+        height : 450px;
+        
+    }
+}
+
+@media screen and (max-width:900px){
+    .heading{
+        margin-left: 13%;
+        font-size: 31px;
+        margin-top: 25%;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 8%;
+        font-size: 60px;
+        width: 110px;
+        height:110px;
+    }
+    .search{
+        height : 330px;        
+        background-size: 100% 330px;
+    }
+    .dropdown{
+        height : 27px;
+        margin-top: 31%;
+        margin-left : 17%;
+    }
+    select{
+        height : 27px;
+        width : 33.7%;
+    }
+    .info{
+        height : 575px;       
+    }
+
+    .information2{
+        box-shadow: 3px 0px 0px rgb(54, 54, 54);
+    }
+}
+
+@media screen and (max-width:800px){
+    .heading{
+        margin-left: 11%;
+        margin-top: 27%;
+        font-size: 27px;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 8%;
+        font-size: 50px;
+        width: 100px;
+        height:100px;
+    }
+    .search{
+        height : 310px;        
+        background-size: 100% 310px;
+    }
+    .dropdown{
+        height : 24px;
+        margin-top: 34%;
+        margin-left : 16%;
+    }
+    select{
+        height : 24px;
+        width : 33.3%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    
+    .heading{
+        margin-left: 10%;
+        margin-top: 29%;
+        font-size: 25px;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 8%;
+        font-size: 45px;
+        width: 90px;
+        height:90px;
+    }
+    .search{
+        height : 290px;        
+        background-size: 100% 290px;
+    }
+    .dropdown{
+        height : 22px;
+        margin-top: 36%;
+        margin-left : 17%;
+    }
+    select{
+        height : 22px;
+        width : 32.7%;        
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    
+    .heading{
+        margin-left: 9%;
+        margin-top: 29%;
+        font-size: 23px;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 8%;
+        font-size: 40px;
+        width: 80px;
+        height:80px;
+    }
+    .search{
+        height : 270px;        
+        background-size: 100% 270px;
+    }
+    .dropdown{
+        height : 22px;
+        margin-top: 38%;
+    }
+    select{
+        height : 22px;
+        width : 32%;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    
+    .heading{
+        margin-left: 9%;
+        margin-top: 31%;
+        font-size: 21px;
+    }
+    .logo{
+        margin-left: 39%;
+        margin-top: 8%;
+        font-size: 40px;
+        width: 80px;
+        height:80px;
+    }
+    .search{
+        height : 250px;        
+        background-size: 100% 250px;
+    }
+    .dropdown{
+        height : 20px;
+        margin-top: 40%;
+    }
+    select{
+        height : 20px;
+        width : 31.5%;
+        font-size: 11px;
+    }
+    
+}
+
+    
