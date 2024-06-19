@@ -1,4 +1,4 @@
-# Zomato_Frontend
+# Zomato_Frontend_part1
 HOME PAGE
 
 ![image](https://github.com/sanskruti-sn/Zomato_Frontend/assets/151083666/05b3464b-387d-49c1-868a-b21326159e6e)
